@@ -1,0 +1,69 @@
+body{
+    padding-top: 5px;
+    padding-left: 50px;
+    font-family: 'Poppins';    
+    padding-left: 80px;
+}
+header{
+    padding-top: 0px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav img{
+    width: 200px;
+    height: 200px;
+    margin-right: 17%;
+    padding: 0px;
+}
+.nav a{
+    text-align: center;
+    padding: 0px 20px; 
+    text-decoration: none;
+    color: black;
+}
+#left>button{
+    border-radius: 20px;
+    background-color: #DC0155;
+    border: none;
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.body{
+    display: flex;
+}
+h1{
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+    font-weight: 400;
+    color: black;
+    margin: -10px auto;
+    line-height: 70px;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+    padding-right: 100px;
+}
+#left>h1>span{
+    color: #DC0155;
+}
+#last_text{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#right>img{
+    width: 600px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #DC0155;
+}
+a:hover{
+    font-size: 18px;
+}
